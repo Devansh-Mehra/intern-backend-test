@@ -1,6 +1,7 @@
 import express, { Request, Response } from 'express';
 import userRoutes from './routes/user.routes';
 import bookRoutes from './routes/book.routes';
+import 'dotenv/config';
 
 const app = express();
 app.use(express.json());
