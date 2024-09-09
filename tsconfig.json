@@ -7,7 +7,8 @@
     "jsx": "react-jsx",
     "allowJs": true,
     "typeRoots": ["./node_modules/@types", "./types"],
-    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
     "noEmit": true,
     "strict": true,
     "skipLibCheck": true,
@@ -16,6 +17,6 @@
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": false
   },
-  "include": ["src/**/*", "spec/**/*"],
+  "include": ["src/**/*", "src/spec/**/*"],
   "exclude": ["node_modules"]
 }

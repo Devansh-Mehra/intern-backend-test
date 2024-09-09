@@ -50,7 +50,6 @@ async function initializeUserModel() {
         10
       );
       user.setDataValue('password', hashedPassword);
-      console.log('Password hashed successfully');
     } catch (error) {
       console.error('Error hashing password:', error);
       throw error;

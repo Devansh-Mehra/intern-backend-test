@@ -1,4 +1,3 @@
-// src/models/book.model.ts
 import { DataTypes, Model, Sequelize } from 'sequelize';
 import { Datastore } from '../integration/datastore';
 import { UserModel } from './user.model';
@@ -35,7 +34,6 @@ async function initializeBookModel() {
     }
   );
 
-  // Associations
   UserModel.hasMany(BookModel, { foreignKey: 'userId' });
   BookModel.belongsTo(UserModel, { foreignKey: 'userId' });
 
