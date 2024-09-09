@@ -65,7 +65,7 @@ Here we are evaluating your capacity to understand what should be tested and how
 
 
 # To Run the follwing code 
-##Step 1 - To install all the needed dependencies.
+## Step 1 - To install all the needed dependencies.
 ```bash
 npm install
 ```
