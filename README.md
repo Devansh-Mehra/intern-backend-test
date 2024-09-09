@@ -61,3 +61,40 @@ Here we are evaluating your capacity to understand what should be tested and how
 - We expect you to handle errors and edge cases. Understanding what these are and how to handle them is part of the challenge.
 - Feel free to change literally anything about this project. We already provided you a sample to run an API and a Postgres database on Docker and gave you samples for interacting with the database. All that we require is that if you do change something, you should explain why you did it and provide us with the necessary instructions to run the project.
 - The API paths above are just suggestions, so feel free to change them as well - although if you do change them, we expect that it still covers all the necessary operations we describred.
+
+
+
+# To Run the follwing code 
+## Step 1 - To install all the needed dependencies.
+```bash
+npm install
+```
+
+## Step 2 - Create a .env file or replace the .env entities in datastore.js, auth.middleware.ts and jwt.utils.ts with the required values 
+Entities to replace 
+```bash
+DB_HOST
+DB_DATABSE
+DB_USERNAME
+DB_PASSWORD
+JWT_SECRET
+```
+
+## Step 3 - To run the code do 
+```bash
+npm start
+```
+
+## Step 4 - using postman with the required url 
+
+Url I used (Example)- 
+ -- To create User
+ ```bash
+[https:](http://localhost:3000/users/createUser) 
+```
+
+## Step 5 - To run the test cases 
+```bash
+npm test
+```
+
